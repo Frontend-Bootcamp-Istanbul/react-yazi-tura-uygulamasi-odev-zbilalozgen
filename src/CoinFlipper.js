@@ -34,7 +34,6 @@ class CoinFlipper extends Component {
       });
     // 1 saniye kadar dönmesi yeterli, bu yüzden 1 saniye sonra "donuyor" durmunu tekrar "false" yapıyoruz.
     setTimeout(() => this.setState({ donuyor: false }), 1000);
-    this.num++;
   };
 
   render() {
